@@ -1,0 +1,2 @@
+<?php $lid = array_combine($lider, $lider); ?>
+<?php echo $this->Form->input('supcontr', array('class' => 'form-control', 'placeholder' => 'Supervisor', 'label' => 'Lider del Proyecto', 'type' => 'select', 'name' => 'data[Permission][supcontr]', 'id' => 'PermissionSupcontr', 'options' => $lid, 'empty' => '...', 'required' => 'true')); ?>

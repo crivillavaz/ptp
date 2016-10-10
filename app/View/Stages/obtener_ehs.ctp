@@ -1,0 +1,2 @@
+<?php $eh = array_combine($ehs, $ehs); ?>
+<?php echo $this->Form->input('supehs', array('class' => 'form-control', 'placeholder' => 'Supervisor', 'label' => 'Supervisor EHS', 'type' => 'select', 'options' => $ehs, 'empty' => '...', 'name' => 'data[Stage][supehs]', 'id' => 'StageSupehs', 'required' => true)); ?>

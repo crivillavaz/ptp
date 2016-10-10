@@ -1,0 +1,1 @@
+	<?php echo $this->Form->input('Risk', array('type' => 'select', 'class' => 'form-control', 'multiple' => 'checkbox', 'options' => $riesgos, 'label' => 'Identificación de riesgos', 'required' => true)); ?>

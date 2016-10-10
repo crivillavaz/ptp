@@ -1,0 +1,22 @@
+/* Write your custom CSS here */
+.panel-white {
+    background: #fff;
+    border: 1px solid #e9e9e9!important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f2b74c;
+    border-color: transparent;
+}
+.btn {
+    font-size: 13px;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.btn-primary.active, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus, .btn-primary:active, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #333;
+    border-color: transparent;
+}

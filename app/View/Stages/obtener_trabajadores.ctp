@@ -1,0 +1,1 @@
+<?php echo $this->Form->input('User', array('class' => 'form-control', 'options' => $trabajadores, 'multiple' => 'checkbox', 'required' => true, 'label' => 'Nombre del personal Involucrado', 'name' => 'data[User][User]', 'id' => 'UserUser', )); ?>

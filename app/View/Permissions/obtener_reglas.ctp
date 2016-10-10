@@ -1,0 +1,1 @@
+	<?php echo $this->Form->input('Rule', array('type' => 'select', 'class' => 'form-control', 'multiple' => 'checkbox', 'options' => $reglas, 'label' => 'Reglas de Seguridad', 'required' => true, 'name' => 'data[Rule][Rule]', 'id' => 'RuleRule')); ?>

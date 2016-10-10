@@ -1,0 +1,2 @@
+<?php $sup = array_combine($supervisor, $supervisor); ?>
+<?php echo $this->Form->input('supemp', array('class' => 'form-control', 'placeholder' => 'Supervisor', 'label' => 'Supervisor del Trabajo', 'type' => 'select', 'name' => 'data[Stage][supemp]', 'id' => 'StageSupemp', 'options' => $sup, 'empty' => ' ', 'required' => true)); ?>
